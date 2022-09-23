@@ -1,0 +1,100 @@
+body {
+    background-image: url(pho.png);
+    background-repeat:  no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: rgb(245, 255, 250);
+    font-family: Perpetua;
+   
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {margin-top: 2rem;
+margin-bottom: 0;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.esrablished {
+    font-style: italic;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(245, 255, 250);
+    border-radius: 5px;
+    width: 10vw;
+    max-width: 700px;
+    min-width: 350px;
+    margin: 0 auto;
+    padding: 15px 15px 25px 15px;
+}
+
+
+
+fieldset {
+    border: none;
+}
+
+input,
+select,
+textarea {
+
+    margin: 0.1em 0 1em 0;
+   
+    
+}
+
+input
+select {
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 6.33em;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: rgb(42, 139, 0);
+    color: rgb(245, 255, 250);
+    font-size: 1.33rem;
+    min-height: 2.5em;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    outline: none !important;
+    border: 2px solid rgb(0, 255, 255);
+    box-shadow: 0 0 10px rgb(0, 127, 127);
+    cursor: pointer;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus {
+    outline: none !important;
+    box-shadow: 0 0 7px rgb(0, 255, 255);
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0;
+    min-height: unset;
+    vertical-align: middle;
+}
+
+label{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.taille{
+    width: 100%;
+}
